@@ -7,6 +7,7 @@ Automation For Test SignIn and SignUp
 * [Chocolatey](https://chocolatey.org/) - Package Manager
 * [Ruby](https://rubyinstaller.org/downloads/) - Language For Logic
 * [ChromeDriver](https://chromedriver.chromium.org/downloads) - Browser Driver
+* [RubyMine](https://www.jetbrains.com/ruby/) - IDE
 
 ## Structure Tree
 ```bash
@@ -25,8 +26,8 @@ Automation For Test SignIn and SignUp
 ## How To Use
 Cloning
 ```
-git clone https://github.com/PwS/Amazon-SignIn_SignUp.git
-cd Amazon-SignIn_SignUp
+git clone https://github.com/PwS/Amazon_SignIn_SignUp.git
+cd Amazon_SignIn_SignUp
 ```
 
 Install bundler

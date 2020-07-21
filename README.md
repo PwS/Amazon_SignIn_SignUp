@@ -46,6 +46,7 @@ bundle exec cucumber
 
 If Using Ide RubyMine , The IDE Have separated Button to Running each Feature / Scenario
 1. Run Feature (Shortcut Shift + F10)
-2. Run Feature
-3. Run Scenario
+2. Opened Class (Run on Each Class/File to Check specific feature)
+3. Run Feature (On Spesific Class/File)
+4. Run Spesific Scenario
 <img src="RubyMine.PNG" alt="drawing" width="800"/>

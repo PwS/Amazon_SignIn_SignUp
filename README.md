@@ -43,3 +43,9 @@ Running
 ```
 bundle exec cucumber
 ```
+
+If Using Ide RubyMine , The IDE Have separated Button to Running each Feature / Scenario
+1. Run Feature (Shortcut Shift + F10)
+2. Run Feature
+3. Run Scenario
+<img src="RubyMine.PNG" alt="drawing" width="800"/>

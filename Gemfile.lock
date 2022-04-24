@@ -37,6 +37,7 @@ GEM
     diff-lcs (1.4.4)
     faker (2.13.0)
       i18n (>= 1.6, < 2)
+    ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     fig_newton (1.0)
       yml_reader (>= 0.7)
@@ -44,11 +45,12 @@ GEM
     i18n (1.8.3)
       concurrent-ruby (~> 1.0)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
     multi_json (1.15.0)
     multi_test (0.1.2)
-    nokogiri (1.10.10-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.13.4-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.13.4-x86_64-linux)
+      racc (~> 1.4)
     page-object (2.2.6)
       page_navigation (>= 0.10)
       selenium-webdriver (~> 3.0)
@@ -56,6 +58,7 @@ GEM
     page_navigation (0.10)
       data_magic (>= 0.22)
     public_suffix (4.0.5)
+    racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -88,6 +91,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   capybara

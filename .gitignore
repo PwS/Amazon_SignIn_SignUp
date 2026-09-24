@@ -1,0 +1,15 @@
+# Test output
+/reports/
+
+# Bundler
+/.bundle/
+/vendor/bundle/
+
+# IDEs
+/.idea/
+/.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

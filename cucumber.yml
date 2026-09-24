@@ -1,0 +1,6 @@
+# Usage: bundle exec cucumber -p <profile>
+<% require "fileutils"; FileUtils.mkdir_p("reports/junit") %>
+<% reports = "--format pretty --format html --out reports/cucumber.html --format junit --out reports/junit" %>
+default: <%= reports %> --strict --publish-quiet
+headless: <%= reports %> --strict --publish-quiet HEADLESS=true
+ci: --format progress --strict --publish-quiet HEADLESS=true

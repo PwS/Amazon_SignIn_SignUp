@@ -9,7 +9,7 @@ group :test do
   gem 'cucumber', '~> 9.2'
   gem 'faker', '~> 3.4'
   gem 'rspec-expectations', '~> 3.13'
-  gem 'selenium-webdriver', '~> 4.25'
+  gem 'selenium-webdriver', '~> 4.51'
 end
 
 group :development do

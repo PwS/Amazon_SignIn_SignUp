@@ -14,6 +14,6 @@ end
 
 group :development do
   gem 'rake', '~> 13.2'
-  gem 'rubocop', '~> 1.66', require: false
+  gem 'rubocop', '~> 1.92', require: false
   gem 'rubocop-capybara', '~> 2.21', require: false
 end
